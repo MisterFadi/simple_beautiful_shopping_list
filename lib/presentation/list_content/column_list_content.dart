@@ -9,19 +9,16 @@ class ColumnListContent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        ListEntry(product: products[0]),
-        const SizedBox(height: 16),
-        ListEntry(product: products[1]),
-        const SizedBox(height: 16),
-        ListEntry(product: products[2]),
-        const SizedBox(height: 16),
-        ListEntry(product: products[3]),
-        const SizedBox(height: 16),
-        ListEntry(product: products[4]),
-      ],
-    );
+    return Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+      ListEntry(product: products[0]),
+      const SizedBox(height: 16),
+      ListEntry(product: products[1]),
+      const SizedBox(height: 16),
+      ListEntry(product: products[2]),
+      const SizedBox(height: 16),
+      ListEntry(product: products[3]),
+      const SizedBox(height: 16),
+      ListEntry(product: products[4])
+    ]);
   }
 }
